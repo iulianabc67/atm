@@ -96,32 +96,6 @@
         </div>
     </div>
 
-
-{{-- --------------------------------------------------------------------------- --}}
-
-    {{-- <div class="relative flex items-top justify-center min-h-screen bg-burgundy dark:bg-gray-900 sm:items-center sm:pt-0">
-        @if (Route::has('login'))
-        <div class="w-screen fixed top-0 right-0 px-6 py-4 sm:block bg-cream-colored text-white font-bold text-xl">
-            @auth
-            <a href="{{ url('/dashboard') }}" class="">Dashboard</a>
-            @else
-            <a href="{{ route('login') }}" class="">Login</a>
-            @if (Route::has('register'))
-            <a href="{{ route('register') }}" class="ml-4">Register</a>
-            @endif
-            @endauth
-        </div>
-        @endif
-        <div class="flex flex-wrap items-center justify-items-center h-screen w-screen max-h-screen bg-welcome-colour bg-no-repeat bg-center bg-cover">
-            <div class="p-10 sm:w-full md:w-1/2 items-baseline text-white text-opacity-80">
-                <h1 class="sm:w-full sm:text-xs md:text-4xl lg:text-6xl xl:lg:text-8xl 2xl:text-8xl font-black uppercase tracking-wider">Free ATM transaction</h1>
-                <p class="sm:w-full sm:text-base xl:text-lg 2xl:text-2xl mt-10 tracking-tight">Create an account, deposit virtual money and make free transaction.</p>
-            </div>
-            <div class="sm:w-full md:w-1/2">
-                <img class="xl:w-full m-auto max-h-screen" src="{{ asset('images/new_atm.jpg') }}" alt="atm">
-            </div>
-        </div>
-    </div> --}}
     <script>
     var mobileMenuButton = document.getElementById("mobileMenuButton");
     mobileMenuButton.onclick = function() {
